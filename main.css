@@ -1,0 +1,239 @@
+html,body{
+  width:100%;
+  padding:0;
+  margin:0;
+  font-size: 1rem;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+header{
+  background-image: url(https://th.bing.com/th/id/R854ac34e71abdd1fc70f8f00c6337e56?rik=Kd3P4ztBMgwJeQ&riu=http%3a%2f%2fkuroo3.cocolog-nifty.com%2fblog%2fimages%2f2011%2f05%2f08%2fimg_2843.jpg&ehk=H0uwJlh0zaOFoo3dYSIrGwSNrzMZM1Nbaovo6OWF67k%3d&risl=&pid=ImgRaw);
+  background-size: cover;
+  height:460px;
+  margin-bottom:90px;
+  width:100%;
+}
+header img:hover{
+  opacity: 0.8;
+}
+header li:hover{
+  opacity: 0.8;
+}
+nav{
+  width:100%;
+}
+.navbar{
+  display:flex;
+  padding:30px 0 0 8%;
+  margin:0 auto 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:150px;
+}
+.navbar img{
+  width:130px;
+  height:55px;
+}
+
+#nav-bar li{
+  margin-right:60px;
+}
+
+#nav-bar ul{
+  list-style: none;
+  display:flex;
+  width:100%;
+  justify-content: flex-end;
+}
+@media (max-width:1024px){
+
+}
+header h1{
+  text-align: center;
+}
+#wrapper{
+  padding:0 5%;
+  margin: 0 auto;
+}
+#wrapper section h3{
+  text-align: center;
+  margin-bottom:95px;
+}
+#information{
+  padding:0 5%;
+  margin:0 auto;
+}
+#information dl{
+  display: flex;
+  flex-wrap:wrap;
+}
+#information dl :hover{
+  color:;
+}
+#information dt{
+  width:40%;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+  padding-bottom:30px;
+  padding-left:20px;
+}
+#information dt p{
+  margin-left:25px;
+}
+#information dt:hover{
+  opacity:0.8;
+}
+#information di:hover{
+  opacity:0.8;
+}
+#information dl :hover{
+  opacity:0.8;
+}
+
+#information p{
+  border: 1px solid black;
+}
+#information dd{
+  width:60%;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+  padding-bottom:30px;
+  padding-right:30px;
+}
+@media(max-width:767px){
+  #information dd{
+    display:block;
+  }
+  #information dt p{
+    margin-left: 0;
+    text-align: center;
+    width:70%;
+  }
+}
+@media(min-width:768px){
+  #information dt{
+    display: flex;
+  }
+}
+#example{
+  width:100%;
+  margin-bottom:180px;
+}
+#example-content{
+  display: flex;
+  margin-bottom:85px;
+}
+.example-content1{
+  width:50%;
+  text-align: center;
+}
+.example-img{
+  width:80%;
+  margin-bottom:35px;
+}
+.example-more{
+  height:50px;
+  width:300px;
+}
+.example-more :hover{
+  opacity:0.1;
+}
+#example h4{
+  text-align: center;
+  width:200px;
+  height:50px;
+  border: 1px solid black;
+  margin:0 auto;
+  padding-top:8px;
+}
+#example h4:hover{
+  opacity:0.8;
+}
+
+#menu{
+  width:100%;
+  display:flex;
+  margin:0;
+  padding:0;
+}
+#menu img{
+  width:33%;
+}
+#menu img:hover{
+  opacity:0.8;
+}
+#footer-menu{
+  background-color: black;
+  color:white;
+  height:130px;
+
+}
+#footer-menu div{
+  padding:0 8%;
+  margin:0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer-menu img{
+  height:40px;
+  width:100px;
+}
+#footer-menu img:hover{
+  opacity:0.8;
+}
+#footer-menu ul{
+  display: flex;
+  list-style: none;
+}
+#footer-menu li{
+  margin:35px 0 0 60px;
+}
+#footer-menu li:hover{
+  opacity:0.8;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+@media (max-width:1023px){
+  #example{
+    text-align: center;
+  }
+  #example-content{
+    flex-direction: column;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+  }
+  .example-content1{
+    text-align: center;
+    margin:0 auto 20px auto;
+  }
+  .example-content1 img{
+    text-align: center;
+    width:100%;
+  }
+  #menu {
+    flex-direction: column;
+
+  }
+  #menu img{
+    width:100%;
+  }
+  #footer-menu{
+    height:350px;
+  }
+  #footer-menu div{
+    flex-direction: column-reverse;
+
+  }
+  #footer-menu ul{
+    flex-direction: column;
+    padding:0;
+    text-align: center;
+  }
+  #footer-menu ul li{
+    margin-left: 0;
+  }
+}
